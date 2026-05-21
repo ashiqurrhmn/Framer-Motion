@@ -1,0 +1,8 @@
+animate={{
+    rotate: [-2, 2, -2],
+  }}
+  transition={{
+    duration: 4,
+    repeat: Infinity,
+    ease: "easeInOut",
+  }}
