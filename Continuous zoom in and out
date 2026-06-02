@@ -1,0 +1,22 @@
+<motion.div
+            animate={{
+              scale: [0.97, 1.06, 0.97],
+              opacity: [0.8, 0.95, 0.8],
+            }}
+            transition={{
+              duration: 16,
+              repeat: Infinity,
+              repeatType: "mirror",
+              ease: "easeInOut",
+            }}
+            className="w-full h-full"
+          >
+            <Image
+              src="/Assets/globe.png"
+              alt=""
+              width={1440}
+              height={1882}
+              className="w-full h-full object-contain"
+              priority
+            />
+          </motion.div>
